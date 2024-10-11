@@ -4,7 +4,6 @@ title: when pasting from the system clipboard happens twice
 ---
 
 ## Double Trouble
-
 Imagine you're having trouble with a piece of software and have finally
 found a post that describes your symptoms. The discussion of how to
 debug it contains a sequence of commands to run from your shell, that
@@ -23,7 +22,6 @@ issue and we might not want side-effects. This was annoying on one
 machine, bad on two, but usability-hell on three different machines.
 
 ## Debugging
-
 1. try pasting into a plain bash shell
   - works fine.
 2. try pasting into a plain zsh shell with no oh-my-zsh loaded
@@ -37,7 +35,6 @@ that I'm using Oh My ZSH on all of my machines. Where did this come from?
 See also: https://github.com/ohmyzsh/ohmyzsh/issues/9562
 
 ## Fix
-
 The issue is resolved on my machine by adding,
 
 ```shell
